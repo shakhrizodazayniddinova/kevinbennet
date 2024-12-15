@@ -1,0 +1,68 @@
+.landing{
+    padding: 70px 250px;
+}
+.circle{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    background-color: rgb(222, 222, 222);
+    border-radius: 100%;
+}
+.circle span{
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: blue;
+    left: 50%;
+    top: 0;
+    transform-origin: center;
+}
+.circle span:first-child{
+    transform: rotate(45deg);
+}
+.circle span:last-child{
+    transform: rotate(-45deg);
+}
+
+.authorName{
+    position: relative;
+}
+.authorName h1{
+    font-size: 65px;
+}
+.authorName span{
+    position: absolute;
+    width: 200px;
+    height: 1px;
+    margin-top: 70px;
+}
+
+.aboutAuthor{
+    margin-top: 160px;
+}
+.aboutAuthor p{
+    width: 900px;
+    height: 240px;
+    font-size: 17px;
+    line-height: 25px;
+    color: #202020;
+}
+
+.form-check{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 56px;
+    background: #F8F9FA;
+    padding: 18px 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.landingSpan{
+    width: 60%;
+    height: 1px;
+    align-self: center;
+    position: absolute;
+    margin-top: 50px;
+}

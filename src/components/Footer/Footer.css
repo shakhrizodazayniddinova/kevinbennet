@@ -1,0 +1,15 @@
+.footerDiv{
+    padding: 70px 290px;
+    gap: 100px;
+}
+.footerDiv .footCard{
+    width: 960px;
+    height: 196px;
+    background: #E5E5E5;
+    box-shadow: 0px 25px 65px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+.primaryBtn:hover{
+    background: #0065FF !important;
+}

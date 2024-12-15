@@ -1,0 +1,31 @@
+.dark{
+    background-color: rgb(36, 36, 36);
+    color: white !important;
+    transition: 0.3s;
+} 
+.dark header{
+    background: #3C3B3A !important;
+    border-bottom: 1px solid white !important;
+}
+.dark .theme-secondary{
+    background-color: #3C3B3A !important;
+}
+.dark .theme-secondary span{
+    background-color: black;
+}
+.dark .aboutAuthor p{
+    color: white !important;
+}
+.dark .aboutAuthor p span{
+    color: white !important;
+    text-decoration: underline;
+}
+.dark .primaryBtn{
+    background-color: #3C3B3A !important;
+    border-color: white;
+    color: white;
+}
+.dark .primaryBtn:hover{
+    background: rgb(36, 36, 36) !important;
+    border-color: white;
+}

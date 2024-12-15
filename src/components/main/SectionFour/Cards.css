@@ -1,0 +1,33 @@
+.titleCard{
+    width: 1000px;
+    height: 214px;
+}
+.titleCard .linesDiv{
+    position: relative;
+    width: 215px;
+    height: 120px;
+    background: #E5E5E5;
+    border-radius: 5px;
+}
+.titleCard .linesDiv span{
+    position: absolute;
+    top: 59px;
+    left: -12px;
+    transform-origin: center;
+    width: 240px;
+    height: 0.24px;
+    background: #0065FF;
+}
+.titleCard.linesDiv span:first-child{
+    transform: rotate(29deg);
+}
+.titleCard.linesDiv span:last-child{
+    transform: rotate(-29deg);
+}
+
+.titleCard .titleDiv{
+    width: 740px;
+}
+.titleCard .titleDiv p:last-child{
+    font-size: 18px;
+}
